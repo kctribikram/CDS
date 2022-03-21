@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"> 
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- JS Library for DOM -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <link href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>Complete Disability Services</title>
+  </head>
+  <body>
+    <main>
+        <!-- Start of Navigation -->
+        <nav class="nav-wrap navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand top-logo" href="#"><img src="assets/images/complete-disability-logo.png" alt="Complete Disability Services" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ctm-nav ms-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NDIS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Make a Referal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Careers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- End of Navigation -->
+        <!-- Start of Slider -->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/disability-services.svg" class="d-block w-100" alt="Complete disability services">
+                <div class="carousel-block carousel-caption d-none d-md-block">
+                  <h1 class="text-first">We Provide Complete</h1>
+                  <h1 class="text-second">Disability Services</h1>
+                  <h1 class="text-third">to People in Needs</h1>
+                  <p>We help people with disability, their family, friends and carers, to find the support they need in Australia.</p>
+                  <a href="#" target="#" class="button-white">Learn More</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/disability-training.svg" class="d-block w-100" alt="Disability Training">
+                <div class="carousel-block carousel-caption d-none d-md-block">
+                  <h1 class="text-first">Participate in,</h1>
+                  <h1 class="text-second">Education Training</h1>
+                  <h1 class="text-third snd">and Employment</h1>
+                  <p>Find out how Melbourne Disability Services can enhance your standard of living!</p>
+                  <a href="#" target="#" class="button-white">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- End of Slider -->
+        <!-- Start of About Us Section -->
+        <section class="about-sec">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-7 about-intro">
+                        <article>
+                            <h4>Why Choose Us</h4>
+                            <h1>Our Aged Care Family will Assist You at Every Stage of Life.</h1>
+                            <p>The Complete Disability Services has information and services to help people with disability, their family, friends and carers, to find the support they need in Australia. We see your capabilities not your disabilities and provide an environment that nurture's and enhances your skills to maximise your potential for success in any aspect of your life such as; your career, day to day tasks, mental and physical health, relationships and much more.</p>
+                            <a href="#" class="btn-pink">View More</a>
+                        </article>
+                    </div>
+                    <div class="col-sm-12 col-md-5 about-img-block">
+                        <img src="assets/images/about-image.svg" class="img-fluid" alt="Complete Disability Services has information and services to help people with disability.">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of About Us Section -->
+        <!-- Start of Services Section -->
+        <section class="service-sec">
+            <div class="container-fluid">
+                <div class="col-sm-12 col-md-12">
+                    <div class="center-block">
+                        <h4 class="sub-heading">Why Choose Us</h4>
+                        <h1>CDS Provides Professional Home Care Services, Tailored to Your Needs.</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="service-block">
+                          <a href="#">
+                            <div class="icon-wrap">
+                                <img src="assets/images/skill.svg" class="img-fluid" alt="Skill Development">
+                            </div>
+                            <h4>Skill Development</h4>
+                            <p>Skill developement to help people with disability.</p>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="service-block">
+                        <a href="#">
+                          <div class="icon-wrap">
+                              <img src="assets/images/community-care.svg" class="img-fluid" alt="Community Development">
+                          </div>
+                          <h4>Community Development</h4>
+                          <p>Community developement to help people with disability.</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="service-block">
+                        <a href="#">
+                          <div class="icon-wrap">
+                              <img src="assets/images/disabilitycare.svg" class="img-fluid" alt="Disability Care">
+                          </div>
+                          <h4>Disability Care</h4>
+                          <p>Disability Care to help people with disability.</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="service-block">
+                        <a href="#">
+                          <div class="icon-wrap">
+                              <img src="assets/images/mental-care.svg" class="img-fluid" alt="Mental Health Services">
+                          </div>
+                          <h4>Mental Health</h4>
+                          <p>Mental health care to help people with disability.</p>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-3">
+                      <div class="service-block">
+                        <a href="#">
+                          <div class="icon-wrap">
+                              <img src="assets/images/skill.svg" class="img-fluid" alt="Skill Development">
+                          </div>
+                          <h4>Skill Development</h4>
+                          <p>Skill developement to help people with disability.</p>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3">
+                    <div class="service-block">
+                      <a href="#">
+                        <div class="icon-wrap">
+                            <img src="assets/images/community-care.svg" class="img-fluid" alt="Community Development">
+                        </div>
+                        <h4>Community Development</h4>
+                        <p>Community developement to help people with disability.</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3">
+                    <div class="service-block">
+                      <a href="#">
+                        <div class="icon-wrap">
+                            <img src="assets/images/disabilitycare.svg" class="img-fluid" alt="Disability Care">
+                        </div>
+                        <h4>Disability Care</h4>
+                        <p>Disability Care to help people with disability.</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3">
+                    <div class="service-block">
+                      <a href="#">
+                        <div class="icon-wrap">
+                            <img src="assets/images/mental-care.svg" class="img-fluid" alt="Mental Health Services">
+                        </div>
+                        <h4>Mental Health</h4>
+                        <p>Mental health care to help people with disability.</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <!-- End of Services Section -->
+        <!-- Start of NDIS Verification Section -->
+        <section class="verification-sec">
+          <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-md-8 verified-lblock">
+                 <article>
+                  <h1>We’re Independently Verified</h1>
+                  <p>Our services perform strongly against the NDIS Practice Standards as measured by an independent third party. This means we meet or exceed the quality standards that apply to the disability sector, and that our staff meet all requirements to ensure your safety.</p>
+                 </article>
+               </div>
+               <div class="col-sm-12 col-md-4">
+                  <div class="verified-rblock">
+                    <h2>NDIS Registered Provider</h2>
+                    <img src="assets/images/ndis-logo.png" alt="NDIS Logo">
+                    <p>We can provide the supports you need as a registered NDIS provider.</p>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of NDIS Verification Section -->
+        <!-- Start of Acknowledgement Section -->
+        <section class="acktesti-sec">
+          <div class="aboriginal-block">
+            <div class="ackimg-block">
+              <img src="assets/images/Torres-Strait-Islanders-1.jpg" alt="" class="img-fluid">
+              <img src="assets/images/Australian_Aboriginal_Flag.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="">
+              <h1>Acknowledgement of Country</h1>
+              <p>Complete Disability Services acknowledges and recognises the Australian Aboriginal and Torres Strait Islander peoples as the first inhabitants of the nation and the traditional custodians of the lands where we live, learn and work. We pay our respects to their Elders past and present.</p>
+
+            </div>
+          </div>
+          <div class="testimonial-block">
+            <div class="wrapper">
+              <div class="testimonial">
+                <img src="assets/images/quoteicon.svg" alt="quote icon" class="testi-quote">
+                <ul class="testimonial-ul">
+                  <li class="testimonial-slide active">
+                    <div class="testi-content">
+                      <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</P>
+                      <div class="testi-imgblock">
+                        <img src="assets/images/1.JPG" alt="testi-profile" class="img-fluid">
+                      </div>
+                      <h4>Amelia Morrison</h4>
+                      <p>CEO, Montserrat Pty.</p>
+                      <ul class="testi-rating">
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="testimonial-slide">
+                    <div class="testi-content">
+                      <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</P>
+                      <div class="testi-imgblock">
+                        <img src="assets/images/1.JPG" alt="testi-profile" class="img-fluid">
+                      </div>
+                      <h4>Amelia Morrison</h4>
+                      <p>CEO, Montserrat Pty.</p>
+                      <ul class="testi-rating">
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- <li class="testimonial-slide">
+                    <p class="slidePara"> Second slide spanning two lines this is only one line we like it here!
+                    </p>
+                  </li> 
+                  <li class="testimonial-slide">
+                    <p class="slidePara"> Third slide My family and I have been coming here for over.
+                    </p>
+                  </li> -->
+                  <!-- <span class="top-left"></span>
+                  <span class="top-right"></span> -->
+                </ul>        
+              </div>
+          </div>
+          </div>
+          <div class="clearfix"></div>
+        </section>
+        <!-- End of Acknowledgement Section -->
+        <section class="quick-sec">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="journey-wrap">
+                  <h2>Start Your Journey with CDS</h2>
+                  <p>Start Living Independently Today. Our Door is always open for you, share your interest with us.</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="quick-block">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <h2>Quick Enquiry</h2>
+                      <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+                    </div>
+                  </div>
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Full Name</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Phone</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">Services</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose services</option>
+                        <option>Daily Living</option>
+                        <option>Daily Living</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+    </main>
+   
+  </body>
+</html>
+<!-- <script>
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("navbar").className = "navBg";
+        } else {
+        document.getElementById("navbar").className = "";
+        }
+    }
+</script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+</script>
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
+
+<script>
+ScrollOut({
+    threshold: .6
+})
+</script>
+<script>
+    ScrollOut({
+  cssProps: {
+    viewportY: true,
+    visibleY: true
+  }
+});
+</script> -->
+<!-- Testimonial Slide Script -->
+<script type="text/javascript">
+  (function($) {
+ 
+ var Slider = (function () {
+   
+     function _Slider(element, settings) {
+         this.defaults = {
+             slideDuration: '3000',
+             speed: 500
+             /*
+             ,
+             arrowRight: '.right-arrow',
+             arrowLeft: '.left-arrow'
+             */
+         };
+
+         this.settings = $.extend({}, this.defaults, settings);
+
+         this.initials = {
+             currentSlide: 0,
+             $currentSlide: null,
+             totalSlides: false,
+             cssTransitions: false
+         };
+
+         $.extend(this, this.initials);
+
+         this.$el = $(element);
+
+         this.changeSlide = $.proxy(this.changeSlide, this);
+
+         this.init();
+
+     }
+
+     return _Slider;
+
+ })();
+
+ Slider.prototype.init = function () {
+     this.cssTransitionTest();
+     this.$el.addClass('slider');
+     this.build();
+     this.events();
+     this.activate();
+     this.initTimer();
+ };
+
+ Slider.prototype.cssTransitionTest = function () {
+     var elem = document.createElement('modernizr');
+
+     var props = ['transition', 'WebkitTransition', 'MozTransition', 'OTransition', 'msTransition'];
+
+     for (var i in props) {
+         var prop = props[i];
+         var result = elem.style[prop] !== undefined ? prop : false;
+         if (result) {
+             this.cssTransitions = result;
+             break;
+         }
+     }
+ };
+
+ Slider.prototype.addCSSDuration = function () {
+     var sliderModule = this;
+
+     sliderModule.$el.find('.testimonial-slide').each(function () {
+
+         this.style[sliderModule.cssTransitions + 'Duration'] = sliderModule.settings.speed + 'ms';
+     });
+ };
+
+ Slider.prototype.removeCSSDuration = function () {
+     var sliderModule = this;
+
+     //here we are using 'this' but we can also write sliderModule
+     //since we are refering to the same element...shorter and cleaner
+     this.$el.find('.testimonial-slide').each(function () {
+         this.style[sliderModule.cssTransitions + 'Duration'] = '';
+     });
+ };
+
+
+ //create indicator dots below which also have the functionality
+ //as the arrows
+ Slider.prototype.build = function () {
+     var $indicators = this.$el.append("<ul class='dots-wrapper'>").find('.dots-wrapper');
+     this.totalSlides = this.$el.find('.testimonial-slide').length;
+     for (var i = 0; i < this.totalSlides; i++) {
+         $indicators.append("<li data-index=" + i + ">");
+     }
+ };
+
+ Slider.prototype.activate = function () {
+     this.$currentSlide = this.$el.find('.testimonial-slide').eq(0);
+     this.$el.find('.dots-wrapper li').eq(0).addClass('active');
+ };
+
+ Slider.prototype.events = function () {
+     $('body')
+         .on('click', this.settings.arrowRight, {
+         direction: 'right'
+     }, this.changeSlide)
+         .on('click', this.settings.arrowLeft, {
+         direction: 'left'
+     }, this.changeSlide)
+         .on('click', '.dots-wrapper li', this.changeSlide);
+ };
+
+ Slider.prototype.clearTimer = function () {
+     if (this.timer) {
+         clearInterval(this.timer);
+     }
+ };
+
+ Slider.prototype.initTimer = function () {
+     this.timer = setInterval(
+     this.changeSlide, this.settings.slideDuration);
+ };
+
+ Slider.prototype.startTimer = function () {
+     this.initTimer();
+     this.throttle = false;
+ };
+
+ Slider.prototype.changeSlide = function (e) {
+     if (this.throttle) {
+         return;
+     }
+     this.throttle = true;
+
+     this.clearTimer();
+
+     var direction = this._direction(e);
+
+     var animate = this._next(e, direction);
+     if (!animate) {
+         return;
+     }
+
+     var $nextSlide = this.$el.find('.testimonial-slide').eq(this.currentSlide).addClass(direction + ' active');
+
+     if (!this.csstransitions) {
+         this._jsAnimation($nextSlide, direction);
+     } else {
+         this._cssAnimation($nextSlide, direction);
+     }
+ };
+
+ Slider.prototype._direction = function (e) {
+     var direction;
+     if (typeof e !== 'undefined') {
+         direction = (typeof e.data === 'undefined' ? 'right' : e.data.direction);
+     } else {
+         direction = 'right';
+     }
+     return direction;
+ };
+
+ Slider.prototype._next = function (e, direction) {
+     var index = (typeof e !== 'undefined' ? $(e.currentTarget).data('index') : undefined);
+     switch (true) {
+         case (typeof index !== 'undefined'):
+             if (this.currentSlide == index) {
+                 this.startTimer();
+                 return false;
+             }
+             this.currentSlide = index;
+             break;
+         case (direction == 'right' && this.currentSlide < (this.totalSlides - 1)):
+             this.currentSlide++;
+             break;
+         case (direction == 'right'):
+             this.currentSlide = 0;
+             break;
+         case (direction == 'left' && this.currentSlide === 0):
+             this.currentSlide = (this.totalSlides - 1);
+             break;
+         case (direction == 'left'):
+             this.currentSlide--;
+             break;
+     }
+     return true;
+ };
+
+ Slider.prototype._cssAnimation = function ($nextSlide, direction) {
+     setTimeout(function () {
+         this.$el.addClass('transition');
+         this.addDuration();
+         this.$currentSlide.addClass('shift' + direction);
+     }.bind(this), 100);
+
+     setTimeout(function () {
+         this.$el.removeClass('transition');
+         this.removeCSSDuration();
+         this.$currentSlide.removeClass('active shift-left shift-right');
+         this.$currentSlide = $nextSlide.removeClass(direction);
+         this._updateIndicators();
+         this.startTimer();
+     }.bind(this), 100 + this.settings.speed);
+ };
+
+ Slider.prototype._jsAnimation = function ($nextSlide, direction) {
+     var sliderModule = this;
+
+     if (direction == 'right') {
+         sliderModule.$currentSlide.addClass('js-reset-left');
+     }
+     var animation = {};
+     animation[direction] = '0%';
+
+     var animationPrev = {};
+     animationPrev[direction] = '100%';
+
+     this.$currentSlide.animate(animationPrev, this.settings.speed);
+
+     $nextSlide.animate(animation, this.settings.speed, 'swing', function () {
+         sliderModule.$currentSlide.removeClass('active js-reset-left').attr('style', '');
+         sliderModule.$currentSlide = $nextSlide.removeClass(direction).attr('style', '');
+         sliderModule._updateIndicators();
+         sliderModule.startTimer();
+     });
+ };
+
+ Slider.prototype._updateIndicators = function () {
+     this.$el.find('.dots-wrapper li').removeClass('active').eq(this.currentSlide).addClass('active');
+ };
+
+ $.fn.Slider = function (options) {
+     return this.each(function (index, el) {
+         el.Slider = new Slider(el, options);
+     });
+ };
+})(jQuery);
+
+var args = {
+ arrowRight: '.right-arrow',
+ arrowLeft: '.left-arrow',
+ speed: 500,
+ slideDuration: 3000
+};
+
+$('.testimonial').Slider(args);
+
+
+/*
+var biggestHeight = "0";
+$(".testimonial .testimonial-ul > .testimonial-slide.active").each(function(){
+ if ($(this).height() > biggestHeight ) {
+   biggestHeight = $(this).height()
+ }
+});
+
+$(".testimonial .testimonial-ul").height(biggestHeight);
+*/
+</script>
